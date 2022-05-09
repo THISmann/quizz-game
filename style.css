@@ -7,7 +7,61 @@ body {
     padding: 2%;
 }
 
-.q1 {
+.q {
     margin: 2%;
     padding: 2%;
+}
+
+.q {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.timer>progress {
+    width: 100%;
+    height: 80px;
+}
+
+.question {
+    background-color: aquamarine;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.question:hover {
+    background-color: rgba(127, 255, 212, 0.303);
+    border: 3px solid aquamarine;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.question>p {
+    text-align: center;
+}
+
+.ques {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ques>li {
+    list-style: none;
+}
+
+.proposition>ul>li {
+    background-color: rgb(144, 199, 227);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.proposition>ul>li:hover {
+    background-color: rgba(54, 64, 151, 0.314);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 }

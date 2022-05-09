@@ -20,6 +20,23 @@ function return_index(event) {
     quest_id = event.target.parentElement.id;
 }
 
+
+function timer() {
+    var time;
+    var timer = setInterval(function () {
+        time = document.getElementById("timer").value += 1;
+        if (time == 30) {
+            clearInterval(timer)
+            alert("stop");
+        }
+    }, 1000)
+}
+
+
+//setTimeout(clearInterval(myInterval), 30000)
+
+
+
 function Verify_Answer() {
 
     if (questions[quest_id][chose_id] === reponses[quest_id]) {
